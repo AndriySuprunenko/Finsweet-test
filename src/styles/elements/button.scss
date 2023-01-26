@@ -1,1 +1,21 @@
 @import '../variables';
+
+.button {
+  color: $c-black;
+  padding: 16px 48px;
+  font-size: $fs-button;
+  background-color: $c-yellow;
+  font-family: 'Sen', sans-serif;
+  &:hover {
+    background-color: $c-button-hover;
+  }
+  &:active {
+    background-color: $c-white;
+  }
+  &__white {
+    background-color: $c-white;
+    &:active {
+      background-color: $c-yellow;
+    }
+  }
+}
