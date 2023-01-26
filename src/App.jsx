@@ -1,7 +1,12 @@
+// scss
+import './styles/index.scss';
+
 const App = () => {
-  return <div className="App">
-    <div>hello world</div>
-  </div>;
-}
+  return (
+    <>
+      <h1>hello world</h1>
+    </>
+  );
+};
 
 export default App;

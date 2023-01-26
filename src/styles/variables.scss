@@ -1,0 +1,34 @@
+// * COLORS
+$c-black: #232536;
+$c-purple: #592ea9;
+$c-yellow: #ffd050;
+$c-lavender: #f4f0f8;
+$c-dark-grey: #4c4c4c;
+$c-light-grey: #f4f4f4;
+$c-medium-grey: #6d6e76;
+$c-button-hover: #edc14a;
+$c-light-yellow: #fbf6ea;
+
+// * Font
+$f-base: 'Inter';
+
+// * Font size
+$fs-base: 16px;
+$fs-display: 56px;
+$fs-heading-h1: 48px;
+$fs-heading-h2: 36px;
+$fs-heading-h3: 28px;
+$fs-heading-h4: 24px;
+$fs-heading-h5: 20px;
+$fs-heading-h6: 16px;
+// * Box Shadow
+$bs-normal: 0 0 10px 25px rgba($c-black, 0.3);
+
+// * Media Queries: Breakpoints
+$small: 320px;
+$phone: 480px;
+$tablet: 768px;
+$castom: 915px;
+$large: 1920px;
+$screen: 1400px;
+$desktop: 1024px;
