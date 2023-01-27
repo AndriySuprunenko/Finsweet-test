@@ -17,4 +17,8 @@
       background-color: $c-yellow;
     }
   }
+  @media screen and (max-width: $tablet) {
+    padding: 8px 24px;
+    font-size: $fs-base;
+  }
 }

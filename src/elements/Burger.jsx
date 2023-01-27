@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/elements/burger.scss';
+import Button from './Button';
 
 const Burger = () => {
   useEffect(() => {
@@ -51,6 +52,10 @@ const Burger = () => {
             <Link className="link" to="/contact">
               <span>Contact Us</span>
             </Link>
+          </div>
+          {/* Button */}
+          <div className="link-block">
+            <Button text="Subscribe" classes="button button__white" />
           </div>
         </div>
       </div>

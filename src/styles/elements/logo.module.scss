@@ -1,8 +1,12 @@
 @import '../variables';
 
 .logo {
-  font-size: $fs-heading-h2;
   width: fit-content;
+  font-size: $fs-heading-h2;
+  @media screen and (max-width: $tablet) {
+    margin-top: 5px;
+    font-size: $fs-heading-h3;
+  }
 }
 
 .link {
