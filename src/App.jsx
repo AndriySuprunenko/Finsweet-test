@@ -14,6 +14,7 @@ import Header from './components/Header';
 
 // scss
 import './styles/index.scss';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
