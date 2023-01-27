@@ -8,7 +8,7 @@ const Button = ({
 }) => {
   return (
     <button typeof={types} className={classes}>
-      {text}
+      <span>{text}</span>
     </button>
   );
 };

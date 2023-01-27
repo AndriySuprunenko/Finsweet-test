@@ -18,16 +18,16 @@ import './styles/index.scss';
 const App = () => {
   return (
     <>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="blogs" element={<Blog />} />
-          <Route path="about-us" element={<AboutUs />} />
-          <Route path="category" element={<Category />} />
-          <Route path="author" element={<Author />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/blogs" element={<Blog />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/category" element={<Category />} />
+          <Route path="/author" element={<Author />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </BrowserRouter>
     </>

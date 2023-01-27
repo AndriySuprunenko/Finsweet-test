@@ -1,0 +1,15 @@
+@import '../variables';
+
+.link {
+  padding: 12px;
+  color: $c-white;
+  text-decoration: none;
+  font-size: $fs-heading-h6;
+  font-family: 'Inter', sans-serif;
+  &:hover {
+    color: $c-button-hover;
+  }
+  &:active {
+    color: $c-light-yellow;
+  }
+}
