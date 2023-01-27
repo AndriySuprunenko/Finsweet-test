@@ -1,0 +1,73 @@
+@import '../variables';
+
+// burger
+
+.hamb {
+  display: flex;
+  display: none;
+  width: fit-content;
+  align-items: center;
+  @media screen and (max-width: $desktop) {
+    display: block;
+  }
+}
+
+.hamb__field {
+  z-index: 999;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  display: block;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.popup {
+  top: 0px;
+  width: 100%;
+  right: -100%;
+  z-index: 998;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(41, 46, 54, 1);
+}
+
+.popup.open {
+  right: 0;
+}
+
+.hamb__field.open span:first-of-type {
+  transform: rotate(45deg) translate(10px, 4px);
+}
+
+.hamb__field.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamb__field.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -1px);
+}
+
+// links
+
+.menu__link {
+  display: flex;
+  padding: 40px 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.link-block {
+  display: flex;
+  justify-content: center;
+  &:last-child {
+    padding-bottom: 0;
+  }
+}

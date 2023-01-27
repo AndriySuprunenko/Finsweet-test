@@ -12,6 +12,9 @@
 
 .block {
   width: fit-content;
+  @media screen and (max-width: $desktop) {
+    display: none;
+  }
 }
 
 .container {
