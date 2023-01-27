@@ -4,3 +4,11 @@
   font-size: $fs-heading-h2;
   width: fit-content;
 }
+
+.link {
+  color: $c-white;
+  text-decoration: none;
+  &:active {
+    color: $c-yellow;
+  }
+}
