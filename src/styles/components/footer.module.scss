@@ -17,9 +17,31 @@
   margin: 0 auto;
   max-width: 1440px;
   padding: 60px 80px;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   @media screen and (max-width: $tablet) {
     padding: 30px 40px;
   }
+}
+
+.sectionTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionCenter {
+  display: flex;
+  padding: 85px 65px;
+}
+
+.text {
+  color: $c-white;
+  margin-right: 65px;
+  font-size: $fs-heading-h2;
+}
+
+.input {
+  width: 323px;
+  margin-right: 25px;
 }
