@@ -36,12 +36,23 @@ const Footer = () => {
         </div>
         {/* Center */}
         <div className={styles.sectionCenter}>
+          {/* Text */}
           <span className={styles.text}>
             Subscribe to our news letter to get latest updates and news
           </span>
-          <input type="text" className={styles.input} />
-          <Button />
+          {/* Block Form */}
+          <div className={styles.form}>
+            {/* Input */}
+            <input
+              placeholder="Enter Your Email"
+              type="text"
+              className={styles.input}
+            />
+            {/* Button */}
+            <Button text="Subscribe" />
+          </div>
         </div>
+        {/* Bottom */}
         <div className={styles.sectionBottom}></div>
       </div>
     </footer>
