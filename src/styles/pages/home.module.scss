@@ -19,3 +19,9 @@
   justify-content: center;
   background-color: rgba($color: $c-black-000, $alpha: 0.4);
 }
+
+.subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: $fs-base;
+  text-transform: uppercase;
+}
