@@ -21,7 +21,10 @@
 }
 
 .subtitle {
-  font-family: 'Inter', sans-serif;
   font-size: $fs-base;
   text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  &__bold {
+    font-weight: bold;
+  }
 }

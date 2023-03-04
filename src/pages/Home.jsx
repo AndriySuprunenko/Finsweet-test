@@ -16,7 +16,9 @@ const Home = () => {
         >
           <div className={styles.content}>
             {/* subtitle */}
-            <h2 className={styles.subtitle}>Posted on startup</h2>
+            <h2 className={styles.subtitle}>
+              Posted on <span className={styles.subtitle__bold}>startup</span>
+            </h2>
             {/* title */}
             <h1 className={styles.title}>
               Step-by-step guide to choosing great font pairs
