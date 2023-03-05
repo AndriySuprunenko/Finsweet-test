@@ -46,6 +46,20 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* Posts */}
+      <section className={styles.section}>
+        <div className={styles.post}>
+          <span className={styles.post_title}>Featured Post</span>
+        </div>
+        <div className={styles.posts}>
+          <span className={styles.post_title}>
+            <div>All Posts</div>
+            <Link className={links.link__purple} to="/author">
+              View All
+            </Link>
+          </span>
+        </div>
+      </section>
     </div>
   );
 };

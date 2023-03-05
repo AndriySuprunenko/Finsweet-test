@@ -68,3 +68,17 @@
 
 
 // Posts
+
+.section {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 65px 80px;
+}
+
+.post {
+  &_title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
