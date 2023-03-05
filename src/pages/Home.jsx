@@ -2,10 +2,12 @@ import styles from '../styles/pages/home.module.scss';
 import backgroundImage from '../images/banners/home-banner.png';
 import { Link } from 'react-router-dom';
 import Button from '../elements/Button';
+import links from '../styles/elements/link.module.scss';
 
 const Home = () => {
   return (
     <div className="wrapper">
+      {/* Banner container */}
       <div className={styles.container}>
         {/* banner */}
         <div
@@ -25,8 +27,11 @@ const Home = () => {
             </h1>
             {/* author */}
             <h3 className={styles.author}>
-              By <Link className={styles.author__name}>James West</Link> | May
-              23, 2022
+              By{' '}
+              <Link className={links.link__yellow} to="/author">
+                James West
+              </Link>{' '}
+              | May 23, 2022
             </h3>
             {/* text */}
             <p className={styles.text}>
@@ -35,7 +40,9 @@ const Home = () => {
               cupidatat non proident.
             </p>
             {/* button */}
-            <Button />
+            <div className={styles.button}>
+              <Button text="Read More >" />
+            </div>
           </div>
         </div>
       </div>

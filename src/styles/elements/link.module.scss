@@ -6,6 +6,16 @@
   text-decoration: none;
   font-size: $fs-heading-h6;
   font-family: 'Inter', sans-serif;
+  &__yellow {
+    color: $c-yellow;
+    text-decoration: none;
+    &:hover {
+      color: $c-white;
+    }
+    &:active {
+      color: $c-light-yellow;
+    }
+  }
   &:hover {
     color: $c-button-hover;
   }

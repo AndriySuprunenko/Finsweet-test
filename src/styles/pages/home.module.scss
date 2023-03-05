@@ -28,3 +28,26 @@
     font-weight: bold;
   }
 }
+
+.title {
+  max-width: 800px;
+  margin-top: 25px;
+  font-size: $fs-display;
+}
+
+.author {
+  margin-top: 25px;
+  font-size: $fs-heading-h6;
+  font-family: 'Inter', sans-serif;
+}
+
+.text {
+  margin-top: 25px;
+  font-size: $fs-heading-h6;
+  font-family: 'Inter', sans-serif;
+  max-width: 600px;
+}
+
+.button {
+  margin-top: 50px;
+}
