@@ -53,7 +53,7 @@ const Home = () => {
         </div>
         <div className={styles.posts}>
           <span className={styles.post_title}>
-            <div>All Posts</div>
+            <div className={styles.post_title_name}>All Posts</div>
             <Link className={links.link__purple} to="/author">
               View All
             </Link>

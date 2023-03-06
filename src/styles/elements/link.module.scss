@@ -19,8 +19,9 @@
   &__purple {
     color: $c-purple;
     text-decoration: none;
+    font-size: $fs-base;
     &:hover {
-      color: $c-white;
+      color: $c-yellow;
     }
     &:active {
       color: $c-light-yellow;
